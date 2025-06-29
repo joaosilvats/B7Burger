@@ -132,7 +132,7 @@ header .menu .menu-icon div {
 
 .hero .button {
   width: 280px;
-  display: block;
+  display: inline-block;
   padding: 15px 80px;
   font-weight: 500;
   color: #fff;
@@ -154,5 +154,27 @@ header .menu .menu-icon div {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+  }
+
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero .hero-text {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .hero .hero-img {
+    padding-bottom: 30px;
+  }
+
+  .hero .hero-img img {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 50px;
   }
 }
