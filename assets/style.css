@@ -224,4 +224,17 @@ header .menu .menu-icon div {
     font-size: 40px;
     line-height: 50px;
   }
+
+  .search {
+    padding-bottom: 30px;
+  }
+
+  .search .title {
+    text-align: center;
+  }
+
+  .search .sides {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
